@@ -232,7 +232,7 @@ public void erase1()
  */
  public void drawLine(int x1, int y1, int x2, int y2)
     {
-		graphic.setColor(Color.red);
+		graphic.setColor(Color.black);
         graphic.drawLine(x1, y1, x2, y2);   
         canvas.repaint();
     }
