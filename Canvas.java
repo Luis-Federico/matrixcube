@@ -236,5 +236,11 @@ public void erase1()
         graphic.drawLine(x1, y1, x2, y2);   
         canvas.repaint();
     }
-    
+    public void drawString(String text, int x, int y)
+    {
+        
+        graphic.setColor(Color.black);
+        graphic.drawString(text, x, y);
+        canvas.repaint();
+    }
 }
