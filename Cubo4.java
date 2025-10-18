@@ -1,4 +1,6 @@
-import java.awt.*;
+
+
+       import java.awt.*;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -532,4 +534,123 @@ break;
          case 2:
            // color="red";
             //canvas.draw(this, color, new Polygon(verticex1[i1][j1][k1][crack], verticey1[i1][j1][k1][crack], 4));
-            canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1],pointy[orden[lol][0]][orden[lol][1]][
+            canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1]);
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][2],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][2],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][3],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][3]);
+
+
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][4],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][4],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][5],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][5]);
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][6],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][6],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][7],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][7]);
+            /*
+             for(int o=0;o<2;o++){
+            mat2[o]=mat1[2][o];
+        }
+        canvas.draw(this, color, new Polygon(mat1[crack][0], mat1[crack][1], num));
+        //canvas.wait(50);
+            //Cara cara3 =new Cara(mat2,4,color);
+            //cara3.makeVisible();
+            */
+break;
+         case 3:
+         //   color="yellow";
+           // canvas.draw(this, color, new Polygon(verticex1[i1][j1][k1][crack], verticey1[i1][j1][k1][crack], 4));
+            canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1]);
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][2],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][2],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][3],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][3]);
+
+
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][4],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][4],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][5],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][5]);
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][6],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][6],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][7],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][7]);
+          /*
+             for(int o=0;o<2;o++){
+            mat2[o]=mat1[3][o];
+        }
+        canvas.draw(this, color, new Polygon(mat1[crack][0], mat1[crack][1], num));
+        //anvas.wait(50);
+            //Cara cara4 =new Cara(mat2,4,color);
+            //cara4.makeVisible();
+            */
+break;
+         case 4:
+           // color="magenta";
+           // canvas.draw(this, color, new Polygon(verticex1[i1][j1][k1][crack], verticey1[i1][j1][k1][crack], 4));
+            canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1]);
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][2],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][2],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][3],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][3]);
+
+
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][4],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][4],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][5],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][5]);
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][6],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][6],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][7],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][7]);
+            /*
+             for(int o=0;o<2;o++){
+            mat2[o]=mat1[4][o];
+        }
+        canvas.draw(this, color, new Polygon(mat1[crack][0], mat1[crack][1], num));
+        //canvas.wait(50);
+            //Cara cara5 =new Cara(mat2,4,color);
+            //cara5.makeVisible();
+*/
+break;
+         case 5:
+           // color="orange";
+           // canvas.draw(this, color, new Polygon(verticex1[i1][j1][k1][crack], verticey1[i1][j1][k1][crack], 4));
+            canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][0],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][1]);
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][2],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][2],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][3],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][3]);
+
+
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][4],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][4],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][5],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][5]);
+                       canvas.drawLine(pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][6],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][6],pointx[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][7],pointy[orden[lol][0]][orden[lol][1]][orden[lol][2]][iw][7]);
+           /*
+             for(int o=0;o<2;o++){
+            mat2[o]=mat1[5][o];
+        }
+        canvas.draw(this, color, new Polygon(mat1[crack][0], mat1[crack][1], num));
+        //canvas.wait(50);
+            //Cara cara6 =new Cara(mat2,4,color);
+            //cara6.makeVisible();
+            */
+break;
+default:
+    break;
+}
+}
+    }
+}
+
+
+//canvas.wait(50);
+
+/*
+try
+        {
+            Thread.sleep(500);
+        } 
+        catch (Exception e)
+        {
+            // ignoring exception at the moment
+        }
+        */
+         
+         /*
+         for (int crack=0 ;crack<6;crack++){
+
+if(medio[crack][1]>0){
+            
+            
+        //canvas.draw(this, color, new Polygon(mat1[crack][0], mat1[crack][1], 4));
+        //canvas.wait(50);
+            //Cara cara1 =new Cara(mat2,4,color);
+           
+            canvas.draw(this, "white",new Polygon(verticex1[crack], verticey1[crack], 4));
+          // erase();
+           
+
+    }
+}
+      */
+      //canvas.erase();  
+        //isVisible = false;
+    
+    canvas.wait(43);
+}
+
+}
+ 
+             
